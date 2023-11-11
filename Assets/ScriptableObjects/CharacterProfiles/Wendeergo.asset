@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31f31649d6becc24e93103c3b325e6a3, type: 3}
+  m_Name: Wendeergo
+  m_EditorClassIdentifier: 
+  health: 10
+  stamina: 100
+  movementSettings:
+    walkSpeed: 0.025
+    runSpeed: 0.065
+    moveSmoothing: 0.1
+    animationVelocityDelta: 0.015
+  interactSettings:
+    mask:
+      serializedVersion: 2
+      m_Bits: 0
+    obstacleMask:
+      serializedVersion: 2
+      m_Bits: 0
+    viewDistance: 0
+    viewAngle: 0
+    debugSettings:
+      doDebug: 0
+      debugColour: {r: 1, g: 0, b: 0, a: 1}
+  footsteps:
+  - {fileID: 8300000, guid: 398a65ab9997f1e4a8b4962a106e6ff4, type: 3}
+  blinkTime:
+    min: 0
+    max: 0
